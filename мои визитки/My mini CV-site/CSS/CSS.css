@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Lato, Cambria, serif;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.main, .footer {
+    display: flex;
+    justify-content: center;
+}
+.main-content {
+    width: 450px;
+    padding: 60px 20px 0;
+}
+.main-content-knowledge, .main-content-lang, .main-content-contacts {
+    display: flex;
+    justify-content: flex-start;
+}
+.knowledge-wrapper, .languages-wrapper, .contacts-wrapper {
+    display: flex;
+}
+.mrOff {
+    margin-top: 0;
+}
+.slider, .languages, .contacts {
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 8px;
+    opacity: 0;
+    transition: opacity 1s;
+    position: absolute;
+}
+.showed {
+    opacity: 1;
+}
+.aboutMe p:first-child {
+    margin-top: 0;
+}
+
+
+.footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-nav li {
+    display: inline;
+}
+.footer-nav li a {
+    text-decoration: none;
+    text-align: center;
+
+}
+.footer-nav li a i {
+    color: black;
+    font-size: 35px;
+    margin: 0 3px;
+  }

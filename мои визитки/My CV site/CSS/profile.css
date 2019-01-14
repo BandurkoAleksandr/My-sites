@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #e6e6ff;
+    color: rgba(0, 0, 0, 0.87);
+}
+.main {
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+/*@media (max-width: 640px) {
+    .main {
+        flex-direction: row-reverse;
+    }
+}*/
+@media (max-width: 580px) {
+    .main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}    
+.flex {
+    display: flex;
+}
+i {
+    color: #008B8B;
+}
+a {
+    text-decoration: none;
+}
+.line-border {
+    border-bottom: 1px solid lightgrey;
+}
+/* left-block */
+.left-block {
+    width: 360px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+@media (max-width: 812px) {
+    .left-block {
+        width: 250px;
+    }
+}
+@media (max-width: 640px) {
+    .left-block {
+        width: 30%;
+        flex-shrink: 1;
+    }
+}
+@media (max-width: 580px) {
+    .left-block {
+        width: 100%;
+        flex-shrink: 1;
+        margin-right: 0;
+    }
+}
+h2 {
+    font-size: 20px;
+}
+.avatar-img-wrapper {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.avatar-img {
+    width: 100%;
+}
+.avatar-name {
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+    color:	white;
+    font-size: 14px;
+}
+@media (max-width: 640px) {
+    .avatar-name {
+        font-size: 10px;
+    }
+}
+@media (max-width: 580px) {
+    .avatar-name {
+        font-size: 14px;
+    }
+}
+.info a:link {
+    color: black;
+}
+.info a:hover {
+    color: #008B8B;
+}
+.skills-progress, .languages-progress {
+    width: 250px;
+    height: 16px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+@media (max-width: 640px) {
+    .skills-progress, .languages-progress {
+        width: 100%;
+    }
+}
+.percent {
+    height: 100%;
+    background-color: #008B8B;
+    border-radius: 6px;
+}
+.html5 {
+    width: 70%;
+}
+.css3 {
+    width: 65%;
+}
+.javascript {
+    width: 60%;
+}
+.adobephotoshop {
+    width: 20%;
+}
+.english {
+    width: 50%;
+}
+.italian {
+    width: 20%;
+}
+.russian, .ukrainian {
+    width: 100%;
+}
+/* right-block */
+.right-block {
+    flex-shrink: 1;
+}
+h3 {
+    font-size: 26px;
+}
+.zagolovok {
+    font-size: 16px;
+    font-weight: bold;
+}
+p.data {
+    color: #008B8B;
+}
+.fa-calendar {
+    margin-right: 10px;
+}
+.hobby a:link {
+    color: black;
+}
+.hobby a:visited {
+    color: black;
+}
+.hobby a:hover {
+    color: #008B8B;
+}
+/* footer */
+footer {
+    text-align: center;
+    background-color: #008B8B;
+    color: white;
+    font-size: 18px; 
+  }
+  .footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .footer-nav li {
+    display: inline;
+  }
+  .footer-nav li a {
+    text-decoration: none;
+    text-align: center;
+  }
+  .footer-nav li a i {
+    color: white;
+  }
+  .made-by:link {
+      color: white;
+      font-size: 20px;
+  }
+  .made-by:hover {
+      color: rgb(249, 253, 18);
+  }
